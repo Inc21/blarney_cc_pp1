@@ -4,7 +4,15 @@ In this section, you will include one or two paragraphs providing an overview of
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+## Design
+
+### Color
+
+For this, well established cycling club it was important to pick colours that are consistant with their original club logos and cycling kit. 
+
+<img src="assets\readme_images\color_pallette.png" alt="Color Pallette" width="500px"><br>
+<img src="assets\readme_images\tory_blue.png" alt="Tory Blue" width="250px">
+<img src="assets\readme_images\persian_red.png" alt="Persian Red" width="250px">
 
 ## Features 
 
@@ -110,9 +118,9 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I used free tool [imagecolorpicker.com](https://imagecolorpicker.com/) to pick the colors from original logo.
+- 
+- 
 
 ### Media
 
