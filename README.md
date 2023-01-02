@@ -4,19 +4,41 @@ In this section, you will include one or two paragraphs providing an overview of
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 
-## Design
+<!-- Placeholder image for responsivness page display -->
 
-### Color
+![Image to show page responsivness on smaller screens.](https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg)
 
-For this, well established cycling club it was important to pick colours that are consistant with their original club logos and cycling kit. 
+# Design
+
+## Colour
+For this, well established cycling club it was important to pick colours that are consistant with their original club logos and cycling kit.<br>
+Two main colours are Tory Blue and Persian Red 
 
 <img src="assets\readme_images\color_pallette.png" alt="Color Pallette" width="500px"><br>
 <img src="assets\readme_images\tory_blue.png" alt="Tory Blue" width="250px">
 <img src="assets\readme_images\persian_red.png" alt="Persian Red" width="250px">
+<br>
+## Font
+Used Google fonts for this project.
+
+## Wireframe
+### Wireframe for larger screens
+<br>
+Home Page
+<br>
+![Home page wireframe](/assets/readme_images/wireframe_home.png)
+<br>
+Gallery Page
+<br>
+![Gallery page wireframe](/assets/readme_images/wireframe_gallery.png)
+<br>
+Contact Page
+<br>
+![Contact page wireframe](/assets/readme_images/wireframe_contact.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+<p>In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.</p>
 
 ### Existing Features
 
