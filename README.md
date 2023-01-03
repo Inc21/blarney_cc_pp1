@@ -45,9 +45,9 @@ Contact Page
 
 ### Wireframe for smaller mobile screens.
 
-<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_home.png">
-<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_gallery.png">
-<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_contact.png">
+<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_home.png">
+<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_gallery.png">
+<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_contact.png">
 
 <br clear="left"/>
 
