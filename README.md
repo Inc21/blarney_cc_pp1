@@ -46,7 +46,23 @@ Two main colours are Tory Blue and Persian Red
 <br clear="left"/>
 
 ## Font
-Used Google fonts for this project.
+Used Google fonts to import the font styles and <a href="https://fontjoy.com/" target="_blank">fontjoy.com</a> for pairing the fonts.
+<br>
+<img src="assets\readme_images\font_pairing.png" alt="Font pairing" width="550px">
+<br clear="left"/>
+
+- Russo one - regular 400 - for headings
+<br>
+<img src="assets\readme_images\russo_one_font.png" alt="Russo One" width="250px">
+<br clear="left"/>
+
+- Monteserrat - regular 400 - for other text
+<br>
+<img src="assets\readme_images\montserrat_font.png" alt="Montserrat" width="250px">
+<br clear="left"/>
+
+- Fall back font in both cases is Sans-serif.
+
 
 ## Wireframe
 ### Wireframe for larger screens.
@@ -94,7 +110,7 @@ Contact Page
   <li><a href="https://fontawesome.com/" target="_blank">Font Awsome</a> for icon images.</li>
   <li><a href="https://imagecolorpicker.com/" target="_blank">imagecolorpicker.com</a> free online tool to pick the colors from original logo.</li>
   <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> was used to import the fonts</li>
-</ul> 
+  <li><a href="https://fontjoy.com/" target="_blank">Font Joy</a> for font pairing.
 
 
 ## Features 
@@ -106,7 +122,8 @@ Contact Page
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo image, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button. 
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png>
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+
 <br clear="left"/>
 
 - __Home page__
@@ -115,6 +132,7 @@ Contact Page
   - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.
 
 <img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+
 <br clear="left"/>
 
 - __The Footer__ 
@@ -123,6 +141,7 @@ Contact Page
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 <img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+
 <br clear="left"/>
 
 - __Gallery__
