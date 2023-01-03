@@ -22,19 +22,40 @@ Two main colours are Tory Blue and Persian Red
 Used Google fonts for this project.
 
 ## Wireframe
-### Wireframe for larger screens
-<br>
+### Wireframe for larger screens.
 Home Page
-<br>
+
+
 ![Home page wireframe](/assets/readme_images/wireframe_home.png)
-<br>
+
+
 Gallery Page
-<br>
+
+
 ![Gallery page wireframe](/assets/readme_images/wireframe_gallery.png)
-<br>
+
+
 Contact Page
-<br>
+
+
 ![Contact page wireframe](/assets/readme_images/wireframe_contact.png)
+
+<br>
+<br>
+
+### Wireframe for smaller mobile screens.
+
+<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_home.png">
+<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_gallery.png">
+<img align="left" width="300" height="" src="assets\readme_images\wireframe_m_contact.png">
+
+<br clear="left"/>
+
+# Tools used
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul> 
 
 ## Features 
 
@@ -132,19 +153,19 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 
-## Credits 
+# Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-### Content 
+## Content 
 
 - I used free tool [imagecolorpicker.com](https://imagecolorpicker.com/) to pick the colors from original logo.
 - 
 - 
 
-### Media
+## Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
