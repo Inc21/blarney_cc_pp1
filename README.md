@@ -1,12 +1,37 @@
 # Blarney Cycling Club
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Blarney cycling club is a website for real life cycling club based in Blarney, Co. Cork. Blarney CC mainly gaters for all diferent types of road racing with main emphasis on road cycling. Club was founded in 1886 and has been quite active in the community ever since. Club organizes one sportif/charity cycle and three or more road racing events every year. This website will be very useful contact point for people not on social media, advertisment and information point for the events or new cyclists hoping to contact the club.
 
 <!-- Placeholder image for responsivness page display -->
 
 ![Image to show page responsivness on smaller screens.](https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg)
+
+
+# User Stories
+### First time guest ojectives
+<ul>
+  <li>As a first time guest, When I first open the page I want to be confirmed viually that I'am on the right page.</li>
+  <li>As a first time guest, I want to easily navigate my way around the site.</li>
+  <li>As a first time guest, I want to be able to see what this club is all about, learn more and send them a message.</li>
+  <li>As a first time guest, I want to inspired by the photographs on the page to get out and healthy.</li>
+  <li>As a first time guest, I want to be able to find the club location.</li>
+</ul>
+
+### Returning guest objectives
+<ul>
+  <li>As a returning guest, I would like to navigate to the right page quickly and easily.</li>
+  <li>As a returning guest, I would like to find the location for group cycle coming up.</li>
+  <li>As a returning guest, I would like to find out and maybe download information about the upcoming event.</li>
+  <li>As a returning guest, I would like to see if there is any cancellations due to weather for upcoming group cycle.</li>
+</ul>
+
+###  Site owner objectives
+<ul>
+  <li>As a site owner, I would like website to provide information to even wider range of people about the club and it's activities</li>
+  <li>As a site owner, I would like to attract more people to cycling</li>
+  <li>As a site owner, I would like to provide that information in clean any easily manageable manner.</li>
+</ul>
+
 
 # Design
 
@@ -17,7 +42,9 @@ Two main colours are Tory Blue and Persian Red
 <img src="assets\readme_images\color_pallette.png" alt="Color Pallette" width="500px"><br>
 <img src="assets\readme_images\tory_blue.png" alt="Tory Blue" width="250px">
 <img src="assets\readme_images\persian_red.png" alt="Persian Red" width="250px">
-<br>
+
+<br clear="left"/>
+
 ## Font
 Used Google fonts for this project.
 
@@ -51,69 +78,70 @@ Contact Page
 
 <br clear="left"/>
 
-# Tools used
+# Tools and technologies used
+## Languages
 <ul>
   <li>HTML</li>
   <li>CSS</li>
 </ul> 
 
-## Features 
+## Other tools and programs.
+<ul>
+  <li><a href="https://balsamiq.com/" target="_blank">Balsamiq</a> was used for wireframing.</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> Did most of my coding and syncronizing with Github with VS Code.</li>
+  <li><a href="https://git-scm.com/" target="_blank">Git</a> for version control.</li>
+  <li><a href="https://github.com/" target="_blank">Github</a> for hosting and deploying repositories.</li>
+  <li><a href="https://fontawesome.com/" target="_blank">Font Awsome</a> for icon images.</li>
+  <li><a href="https://imagecolorpicker.com/" target="_blank">imagecolorpicker.com</a> free online tool to pick the colors from original logo.</li>
+  <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> was used to import the fonts</li>
+</ul> 
 
-<p>In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.</p>
+
+## Features 
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header of the page__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo image, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<br clear="left"/>
 
-- __The landing page image__
+- __Home page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - Home page includes a photograph and about us section to allow the user to see information about the club and its history. 
+  - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<br clear="left"/>
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section is again featured on all the pages and includes links to the relevant social media sites for Blarney Cycling Club. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<br clear="left"/>
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - In the gallery section user can find more motivational images from the club activities. 
+  - This section is valuable to the user as they will be able to easily identify the types of events Blarney cycling club organizes and takes part in. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<br clear="left"/>
 
-- __The Sign Up Page__
+- __The Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to contact the club via form. Also find the location for all organized weekly meetups.
+  - This page is very valuable for the user with many points of contact can be found. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<br clear="left"/>
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -161,7 +189,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ## Content 
 
-- I used free tool [imagecolorpicker.com](https://imagecolorpicker.com/) to pick the colors from original logo.
+- 
 - 
 - 
 
@@ -170,22 +198,3 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
