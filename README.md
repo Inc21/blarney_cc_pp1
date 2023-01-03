@@ -72,9 +72,9 @@ Contact Page
 
 ### Wireframe for smaller mobile screens.
 
-<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_home.png">
-<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_gallery.png">
-<img align="left" width="266" height="" src="assets\readme_images\wireframe_m_contact.png">
+<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_home.png">
+<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_gallery.png">
+<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_contact.png">
 
 <br clear="left"/>
 
@@ -88,7 +88,7 @@ Contact Page
 ## Other tools and programs.
 <ul>
   <li><a href="https://balsamiq.com/" target="_blank">Balsamiq</a> was used for wireframing.</li>
-  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> Did most of my coding and syncronizing with Github with VS Code.</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code.</a> Did most of my coding and syncronizing with Github with VS Code.</li>
   <li><a href="https://git-scm.com/" target="_blank">Git</a> for version control.</li>
   <li><a href="https://github.com/" target="_blank">Github</a> for hosting and deploying repositories.</li>
   <li><a href="https://fontawesome.com/" target="_blank">Font Awsome</a> for icon images.</li>
@@ -106,7 +106,7 @@ Contact Page
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo image, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button. 
 
-<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png>
 <br clear="left"/>
 
 - __Home page__
@@ -114,7 +114,7 @@ Contact Page
   - Home page includes a photograph and about us section to allow the user to see information about the club and its history. 
   - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.
 
-<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
 <br clear="left"/>
 
 - __The Footer__ 
@@ -122,7 +122,7 @@ Contact Page
   - The footer section is again featured on all the pages and includes links to the relevant social media sites for Blarney Cycling Club. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
 <br clear="left"/>
 
 - __Gallery__
@@ -130,7 +130,7 @@ Contact Page
   - In the gallery section user can find more motivational images from the club activities. 
   - This section is valuable to the user as they will be able to easily identify the types of events Blarney cycling club organizes and takes part in. 
 
-<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
 <br clear="left"/>
 
 - __The Contact Page__
@@ -138,7 +138,7 @@ Contact Page
   - This page will allow the user to contact the club via form. Also find the location for all organized weekly meetups.
   - This page is very valuable for the user with many points of contact can be found. 
 
-<img align="left" width="" height="" src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png">
+<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
 <br clear="left"/>
 
 
