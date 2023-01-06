@@ -24,7 +24,7 @@ body {
     padding: 10px;
     gap: 10px;
     background-color: white;
-    grid-template: 200px 1fr 1fr 200px / repeat(3, 33%);
+    grid-template: 200px 1fr 1fr 150px / repeat(3, 1fr);
 }
 
 img { 
@@ -53,13 +53,14 @@ img {
     justify-self: center;
     align-self: center;
     padding-right: 20px;
+    white-space: nowrap;
        
 }
 
 .nav-menu a {
     text-decoration: none;
     color: inherit;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #c82828;
     padding: 5px;
 }
 
@@ -68,14 +69,15 @@ img {
     color: white;
     padding: 5px;
     border-radius: 5px;
-    border-bottom: 1px solid black;
+    border: none;
 }
 
-.active {
+li .active {
     background-color: #1259a8;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    border: none;
 }
 
 .hero-image {
