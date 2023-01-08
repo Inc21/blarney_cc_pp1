@@ -93,6 +93,8 @@ ul li {
     padding: 5px;
     border-radius: 5px;
     border: none;
+    text-shadow: 1px 1px 3px #313131;
+    transition: 0.3s ease-out;
 }
 
 li .active {
@@ -101,6 +103,7 @@ li .active {
     padding: 5px;
     border-radius: 5px;
     border: none;
+    text-shadow: 1px 1px 3px #313131;
 }
 
 div, .hero-image {
@@ -139,6 +142,7 @@ div, .hero-image {
     box-sizing: border-box;
     padding: 20px;
     white-space: nowrap;
+    text-shadow: 2px 2px 3px #313131;
 }
 
 
@@ -153,15 +157,21 @@ footer a {
     color: inherit;
     padding: 5px 10px;
     font-size: 110%;
-    border-radius: 50%;
+    border-radius: 8px;
     margin: 10px;
-    border: 1px solid white;
+    border: 1px solid lightslategray;
 }
 
 #social-networks {
     grid-column: 2;
     align-self: center;
     justify-self: center;  
+}
+
+.social-link:hover {
+    border: 4px solid #fff;
+    transition: 0.3s ease-in;
+
 }
 
 #inc21-logo {
@@ -172,20 +182,18 @@ footer a {
     align-self: center; 
 }
 
-.strava {
-    /* color: #fc5200; */
+#strava {
     background-color: #fc5200;;
 }
 
-.instagram {
+#instagram {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #e1306c, #fd1d1d);
 }
 
-.twitter {
+#twitter {
     background-color: #00acee;
 }
 
-.facebook {
+#facebook {
     background-color: #3b5998;
-    
 }
