@@ -11,11 +11,13 @@ body {
     font-weight: 400;
     color: #313131;
     text-decoration: none;
+    /* background-color: #fd1d1d; */
 }
 
 h1 {
     font-family: 'Russo one', sans-serif;
     text-align: center;
+    font-weight: 500;
 }
 
 
@@ -41,9 +43,9 @@ img {
     border-radius: 5px;
     }
 
-    #blarney-logo {
-        max-height: 150px;
-    }
+#blarney-logo {
+     max-height: 150px;
+ }
 
 .logo-image {
     grid-row: 1;
@@ -61,7 +63,7 @@ img {
     text-transform: uppercase;
     justify-self: center;
     align-self: center;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     white-space: nowrap;
 
 }
@@ -71,6 +73,7 @@ img {
     color: inherit;
     border-bottom: 2px solid #c82828;
     padding: 5px;
+    font-weight: 400;
 }
 
 
@@ -79,13 +82,17 @@ ul li {
     display: inline
 }
 
-.line, #line1 {
-    grid-row: 2;
-    grid-column: 1 / span 4;
+.line {
     height: 10px;
     width: 100%;
     justify-self: center;
     background: linear-gradient(0.25turn, #fff, #1259a8, #fff);
+    padding: 0%;
+}
+
+.line, #line1 {
+    grid-row: 2;
+    grid-column: 1 / span 4;
 }
 
 .nav-menu a:hover {
@@ -112,16 +119,21 @@ div, .hero-image {
     grid-column: 1 / 3;
     max-width: 700px;
     height: auto;
-    padding: 10px 0;
-    overflow: hidden;
+    /* padding-top: 20px; */
 }
 
-.about-box-1 {
+/* About section */
+
+.about-box {
+    padding: 20px;
+}
+
+#about-box-1 {
     grid-row: 3 / 4;
     grid-column: 3 / 5;
 }
 
-.about-box-2 {
+#about-box-2 {
     grid-row: 4 / 5;
     grid-column: 3 / 5;
 }
@@ -129,8 +141,6 @@ div, .hero-image {
 #line2, .line {
     grid-row: 5;
     grid-column: 1 / 4;
-    height: 10px;
-    background: linear-gradient(0.25turn, #fff, #1259a8, #fff);
 }
 
 /* footer */
