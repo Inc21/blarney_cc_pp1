@@ -10,7 +10,7 @@ Blarney cycling club is a website for real life cycling club based in Blarney, C
 # User Stories
 ### First time guest ojectives
 <ul>
-  <li>As a first time guest, When I first open the page I want to be confirmed viually that I'am on the right page.</li>
+  <li>As a first time guest, When I first open the page I want to be confirmed visually that I'am on the right page.</li>
   <li>As a first time guest, I want to easily navigate my way around the site.</li>
   <li>As a first time guest, I want to be able to see what this club is all about, learn more and send them a message.</li>
   <li>As a first time guest, I want to inspired by the photographs on the page to get out and healthy.</li>
