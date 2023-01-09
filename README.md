@@ -2,6 +2,8 @@
 
 Blarney cycling club is a website for real life cycling club based in Blarney, Co. Cork. Blarney CC mainly gaters for all diferent types of road racing with main emphasis on road cycling. Club was founded in 1886 and has been quite active in the community ever since. Club organizes one sportif/charity cycle and three or more road racing events every year. This website will be very useful contact point for people not on social media, advertisment and information point for the events or new cyclists hoping to contact the club.
 
+Link to the live website can be found [here.](https://inc21.github.io/blarney_cc_pp1/)
+
 <!-- Placeholder image for responsivness page display -->
 
 ![Image to show page responsivness on smaller screens.](https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg)
@@ -190,14 +192,15 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - On my [GitHub](https://github.com/) landing page open blarney_cc_pp1 repository.
+  - In the blarney_cc_pp1 repository, navigate to the Settings tab.
+  - Menu list on the left of the screen, navigate to pages tab. 
+  - From the GitHub pages, branch section drop-down menu, select the main Branch and hit save button.
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://inc21.github.io/blarney_cc_pp1/ 
 
 
 # Credits 
