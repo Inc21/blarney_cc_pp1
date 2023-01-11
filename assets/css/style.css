@@ -184,7 +184,7 @@ li .active {
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 100px;
     margin-bottom: 1px;
     padding: 0 10px 10px 20px;
     /* height: 100px;
@@ -203,6 +203,7 @@ footer, .copyright {
 
 footer a {
     text-decoration: none;
+    height: 100px;
     color: inherit;
     font-size: 110%;
     border-radius: 8px;
@@ -262,6 +263,28 @@ footer a {
     display: grid;
     grid-template-columns: repeat(var(--num-cols),1fr);
     grid-auto-rows: auto;
+    text-align: center;
+}
+
+#contact-grid h2 {
+    font-family: 'Russo one';
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#contact-grid span {
+    color: #c82828;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* form box */
+
+.contact-us {
+    padding-bottom: 15px;
 }
 
 .form {
@@ -269,16 +292,68 @@ footer a {
     grid-row: 1 / 3;
     border: 1px solid #1259a8;
     height: 610px;
+    padding: 10px 10%;  
+    position: relative;
+    gap: 20px;
 }
+
+input {
+    border: 1px solid #1259a8;
+    border-radius: 5px;
+    position: relative;
+    width: 70%;
+    margin: 10px;
+    line-height: 4ex;
+  }
+
+label {
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    background-color: white;
+    padding: 0 5px;
+}
+
+textarea {
+    border: 1px solid #1259a8;
+    border-radius: 5px;
+    position: relative;
+    width: 70%;
+    margin: 10px;
+    line-height: 4ex;
+}
+
+button {
+    font-family: 'Russo one';
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1259a8;
+    background-color: #e8f2fd;
+    text-transform: uppercase;
+    position: absolute;
+    left: 22%;
+}
+
+.asterix {
+    position: absolute;
+    left: 40%;
+    font-size: 11px;
+    margin: 10px;
+}
+
+/* contact box */
 
 .contact-box {
     grid-column: 2;
     grid-row: 1;
-    border: 1px solid #1259a8;
+    border: 1px solid #8cbcf3;
     height: 350px;
-    text-align: center;
     padding: 10px 10%;
 }
+
+/* map box */
 
 .map {
     grid-column: 2;
@@ -293,18 +368,4 @@ footer a {
     margin: 0 auto;
       display: block;
       width: 100%;
-}
-
-.contact-box h2 {
-    font-family: 'Russo one';
-    letter-spacing: 2px;
-    font-weight: 500;
-}
-
-h2 > span {
-    color: #c82828;
-}
-
-.bold {
-    font-weight: bold;
 }
