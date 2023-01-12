@@ -20,6 +20,13 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    font-family: 'Russo one';
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 
 /* css grid layout  */
 
@@ -32,7 +39,7 @@ h1 {
     display: grid;
     gap: 10px;
     background-color: white;
-    grid-template: auto auto auto auto auto auto / repeat(3, 1fr);
+    grid-template: repeat(6, auto) / repeat(3, 1fr);
 }
 
 img { 
@@ -266,13 +273,6 @@ footer a {
     text-align: center;
 }
 
-#contact-grid h2 {
-    font-family: 'Russo one';
-    letter-spacing: 2px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
 #contact-grid span {
     color: #c82828;
 }
@@ -336,6 +336,16 @@ button {
     left: 22%;
 }
 
+button:hover {
+    background-color: #1259a8;
+    color: white;
+    padding: 10         px;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 1px 1px 3px #313131;
+    transition: 0.1s ease;
+}
+
 .asterix {
     position: absolute;
     left: 40%;
@@ -349,7 +359,7 @@ button {
     grid-column: 2;
     grid-row: 1;
     border: 1px solid #8cbcf3;
-    height: 350px;
+    height: 400px;
     padding: 10px 10%;
 }
 
@@ -359,7 +369,7 @@ button {
     grid-column: 2;
     grid-row: 2;
     border: 1px solid #1259a8;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     padding: 0;
 }
@@ -368,4 +378,35 @@ button {
     margin: 0 auto;
       display: block;
       width: 100%;
+}
+
+/* Confirmation page */
+
+.confirmation {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    padding: 30px;
+    text-align: center;
+}
+
+.confirmation span {
+    color: #c82828;
+}
+
+.confirmation > p {
+    padding: 20px 0 10px 0;
+}
+
+.confirmation a {
+    color: #c82828;
+    /* text-decoration: none; */
+    font-weight: 900;
+}
+
+.main-container .nb {
+    grid-column: span 3;
+    text-align: center;
+    grid-row: 4;
+    font-weight: 600;
+    font-size: 11px;
 }
