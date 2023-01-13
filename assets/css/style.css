@@ -295,6 +295,7 @@ footer a {
     grid-template-columns: repeat(var(--num-cols),1fr);
     grid-auto-rows: auto;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #contact-grid span {
@@ -315,7 +316,7 @@ footer a {
     grid-column: 1;
     grid-row: 1 / 3;
     border: 1px solid #1259a8;
-    height: 610px;
+    height: 710px;
     padding: 10px 10%;  
     position: relative;
     gap: 20px;
@@ -383,7 +384,7 @@ button:hover {
     grid-column: 2;
     grid-row: 1;
     border: 1px solid #8cbcf3;
-    height: 400px;
+    height: 465px;
     padding: 10px 10%;
 }
 
@@ -393,7 +394,7 @@ button:hover {
     grid-column: 2;
     grid-row: 2;
     border: 1px solid #1259a8;
-    height: 200px;
+    height: 235px;
     overflow: hidden;
     padding: 0;
 }
@@ -411,6 +412,7 @@ button:hover {
     grid-row: 3;
     padding: 30px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .confirmation span {
