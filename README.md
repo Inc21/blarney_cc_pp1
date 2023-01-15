@@ -4,9 +4,8 @@ Blarney cycling club is a website for real life cycling club based in Blarney, C
 
 Link to the live website can be found [here.](https://inc21.github.io/blarney_cc_pp1/)
 
-<!-- Placeholder image for responsivness page display -->
 
-![Image to show page responsivness on smaller screens.](https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg)
+![Image to show page responsivness on smaller screens.](assets\readme_images\responsive-mockup.png)
 
 
 # User Stories
