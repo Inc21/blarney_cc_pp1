@@ -277,9 +277,9 @@ footer a {
 /* Contact page */
 
 #contact-grid {
-    margin: 1rem 0;
-    gap: 1rem;
-    box-sizing: border-box;
+    margin: 1rem;
+    column-gap: 2rem;
+    /* box-sizing: border-box; */
     grid-column: 1 / 4;
     grid-row: 3 / 5;
     display: grid;
@@ -308,7 +308,7 @@ footer a {
 .form {
     grid-column: 1;
     grid-row: 1 / 3;
-    height: 41rem;
+    height: 42rem;
     padding: 0 10%;  
     position: relative;
     box-shadow: 0 0 5px 3px lightblue;
@@ -400,6 +400,7 @@ button:hover {
     padding: 0;
     box-shadow: 0 0 2px 2px lightblue;
     border-radius: 10px;
+    margin-top: 2rem;
 }
 
 .map > iframe {
