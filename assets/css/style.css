@@ -251,7 +251,7 @@ footer a {
 
 .image-container, #image-container {
     grid-column: 1 / 4;
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
     gap: 1rem;
     --num-cols: 3;
     --row-height: 20rem;
@@ -413,8 +413,8 @@ button:hover {
 .main-container .confirmation {
     grid-column: 1 / 4;
     grid-row: 3 / 5;
-    grid-template-rows: 1fr 1fr;
-    /* min-height: 65vh; */
+    /* grid-template-rows: 1fr 1fr;
+    min-height: 65vh; */
     padding: 10rem 0;
     text-align: center;
     letter-spacing: 2px;
