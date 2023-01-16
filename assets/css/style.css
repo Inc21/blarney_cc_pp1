@@ -12,7 +12,6 @@ body {
     color: #313131;
     text-decoration: none;
     background-image: linear-gradient(to right,#fff, #1259a8, #fff);
-   
 }
 
 h1 {
@@ -35,16 +34,16 @@ h2 {
 
 .main-container {
     --num-cols: 3;
-    --row-height: auto;
     width: 80vw;
     max-width: 75rem;
+    min-width: 19rem;
     min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     padding: 0 1rem;
     grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
+    grid-template-rows: auto auto 1fr 1fr auto auto;
     background-color: white;
 }
 
@@ -84,7 +83,7 @@ img {
     text-decoration: none;
     color: inherit;
     border-bottom: 2px solid #c82828;
-    font-weight: 700;
+    font-weight: 500;
     padding: 5px;
 }
 
@@ -100,8 +99,8 @@ ul li {
     border-radius: 5px;
     border: none;
     text-shadow: 1px 1px 3px #313131;
-    transition: 0.4s ease;
-    box-shadow: 1px 1px 10px #313131;
+    transition: 0.2s ease;
+    box-shadow: 1px 1px 5px #313131;
 }
 
 /* Main body section */
@@ -117,7 +116,6 @@ ul li {
     width: 100%;
     justify-self: center;
     background: linear-gradient(0.25turn, #fff, #1259a8, #fff);
-    /* padding: 0; */
 }
 
 
@@ -128,43 +126,14 @@ li .active {
     border-radius: 5px;
     border: none;
     text-shadow: 1px 1px 3px #313131;
-    box-shadow: 1px 1px 10px #313131;
+    box-shadow: 1px 1px 5px #313131;
 }
 
 .hero-image {
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
     grid-column: 1 / 3;
     max-height: 65vh;
-    /* padding: 10px 0; */
     margin: 0 auto;
-    box-shadow: 1px 1px 10px;
-}
-
-/* gallery section */
-
-.image-container, #image-container {
-    grid-column: 1 / 4;
-    grid-row: 3 / 4;
-    gap: 1rem;
-    --num-cols: 3;
-    --row-height: 20rem;
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-}
-
-.image-container, #image-container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.span-2-row {
-    grid-row: span 2;
-}
-
-.span-2-col {
-    grid-column: span 2;
 }
 
 /* About section */
@@ -179,7 +148,6 @@ li .active {
 span {
     color: #c82828;font-weight: 600;
     letter-spacing: 3px;
-
 }
 
 .about-box > p {
@@ -216,9 +184,7 @@ p a:hover {
     margin-right: -1rem;
     padding: 1rem;
     height: 6.25rem;
-    
     width: calc(100% + 2rem);
-    /* box-sizing: border-box; */
     white-space: nowrap;
     text-shadow: 2px 2px 3px #313131;
 }
@@ -233,13 +199,11 @@ footer, .copyright {
 
 footer a {
     text-decoration: none;
-    /* height: 6rem; */
     color: inherit;
     font-size: 110%;
     border-radius: 8px;
     margin: 10px;
     padding: 5px 10px;
-    /* border: 1px solid lightslategray; */
 }
 
 #social-networks {
@@ -251,7 +215,6 @@ footer a {
 .social-link:hover {
     border: 3px solid #fff;
     transition: 0.1s ease;
-
 }
 
 #inc21-logo, .inc21-logo {
@@ -284,6 +247,33 @@ footer a {
     box-shadow: 1px 1px 10px;
 }
 
+/* gallery page */
+
+.image-container, #image-container {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    gap: 1rem;
+    --num-cols: 3;
+    --row-height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+}
+
+.image-container, #image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.span-2-row {
+    grid-row: span 2;
+}
+
+.span-2-col {
+    grid-column: span 2;
+}
+
 /* Contact page */
 
 #contact-grid {
@@ -293,7 +283,6 @@ footer a {
     box-sizing: border-box;
     grid-column: 1 / 4;
     grid-row: 3 / 5;
-
     --num-cols: 2;
     display: grid;
     grid-template-columns: repeat(var(--num-cols),1fr);
@@ -319,11 +308,11 @@ footer a {
 .form {
     grid-column: 1;
     grid-row: 1 / 3;
-    border: 1px solid #1259a8;
     height: 41rem;
     padding: 0 10%;  
     position: relative;
-    box-shadow: 0 0 10px 3px #bcbcbc;
+    box-shadow: 0 0 5px 3px lightblue;
+    border-radius: 10px;
 }
 
 input {
@@ -333,13 +322,14 @@ input {
     width: 90%;
     margin: 1rem;
     line-height: 1.5rem;
-    box-shadow: 0 0 10px 3px #bcbcbc;
+    box-shadow: 2px 2px #bcbcbc;
+    padding: 0 0.5rem;
   }
 
 label {
     position: absolute;
     z-index: 1;
-    left: 16%;
+    left: 17%;
     background-color: white;
 }
 
@@ -349,8 +339,11 @@ textarea {
     position: relative;
     width: 90%;
     margin: 1rem;
+    padding: 0.5rem;
     line-height: 1.2rem;
-    box-shadow: 0 0 10px 3px #bcbcbc;
+    box-shadow: 2px 2px 5px 2px #bcbcbc;
+    resize: none;
+    font-family: Montserrat, sans-serif;
 }
 
 button {
@@ -359,13 +352,12 @@ button {
     font-weight: 500;
     padding: 0.8rem;
     border-radius: 5px;
-    border: 2px solid #c82828;
-    color: #c82828;
+    border: 1px solid #1259a8;
     background-color: white;
     text-transform: uppercase;
     position: absolute;
     left: 14%;
-    box-shadow: 1px 1px 5px;
+    box-shadow: 0 0 10px 2px #bcbcbc;
 }
 
 button:hover {
@@ -376,7 +368,7 @@ button:hover {
     border: none;
     text-shadow: 1px 1px 3px #313131;
     transition: 0.4s ease;
-    box-shadow: inset 0 0 10px white;
+    box-shadow: 0 0 10px 2px #bcbcbc;
 }
 
 .asterix {
@@ -390,10 +382,10 @@ button:hover {
 .contact-box {
     grid-column: 2;
     grid-row: 1;
-    border: 1px solid #1259a8;
+    border-radius: 10px;
     height: 25rem;
     padding: 1rem 10%;
-    box-shadow: 0 0 10px 1px #bcbcbc;
+    box-shadow: 0 0 2px 2px lightblue;
 }
 
 /* map box */
@@ -401,24 +393,23 @@ button:hover {
 .map {
     grid-column: 2;
     grid-row: 2;
-    border: 1px solid #1259a8;
     height: 15rem;
     overflow: hidden;
     padding: 0;
-    box-shadow: 0 0 10px 3px #bcbcbc;
+    box-shadow: 0 0 2px 2px lightblue;
+    border-radius: 10px;
 }
 
 .map > iframe {
     margin: 0 auto;
-      display: block;
-      width: 100%;
+    display: block;
+    width: 100%;
 }
 
 /* Confirmation page */
 
-.confirmation {
+.main-container .confirmation {
     grid-column: 1 / 4;
-    grid-row: 3;
     padding: 1rem;
     text-align: center;
     letter-spacing: 2px;
@@ -432,17 +423,18 @@ button:hover {
     padding: 1rem;
 }
 
-.confirmation a {
+.confirmation p > a {
     color: #c82828;
     font-weight: 900;
 }
 
-.main-container .nb {
-    grid-column: span 3;
+.nb {
+    grid-column: 1 / 4;
     text-align: center;
-    grid-row: 4;
     font-weight: 600;
     font-size: 0.7rem;
+    padding: 1rem;
+    align-self: end;
 }
 
 /* Media query for screens under 1024px */
@@ -459,6 +451,7 @@ button:hover {
         grid-row: 1;
         grid-column: 1 / 3;
         justify-self: center;
+        /* align-self: start; */
     }
 
     .nav-menu {
@@ -471,6 +464,7 @@ button:hover {
 
     .line, #line1 {
         grid-row: 3;
+
     }
 
     .hero-image {
@@ -538,6 +532,8 @@ button:hover {
 
     #contact-grid {
         --num-cols: 1;
+        gap: 2rem;
+        margin: 2rem 0 1rem 0;
     }
 
     .form {
@@ -552,6 +548,7 @@ button:hover {
         grid-row: 1;
         height: auto;
         padding: 2rem;
+        /* margin: 1rem 0; */
     }
     
     /* map box */
@@ -584,5 +581,17 @@ button:hover {
 
     .form {
         font-size: 90%;
+    }
+}
+
+/* Media query for screens under 425px */
+
+@media screen and (max-width: 425px) {
+    .main-container {
+        width: 95vw;
+    }
+
+    .nav-menu {
+        font-size: 65%;
     }
 }
