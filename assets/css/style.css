@@ -278,15 +278,15 @@ footer a {
 
 #contact-grid {
     margin: 1rem;
-    column-gap: 2rem;
+    gap: 2rem;
     /* box-sizing: border-box; */
     grid-column: 1 / 4;
     grid-row: 3 / 5;
     display: grid;
     --num-cols: 2;
     grid-template-columns: repeat(var(--num-cols),1fr);
-    /* grid-template-rows: auto; */
-    /* grid-auto-rows: auto; */
+    /* grid-auto-rows: 1fr 1fr; */
+    grid-auto-rows: min-content;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -308,7 +308,6 @@ footer a {
 .form {
     grid-column: 1;
     grid-row: 1 / 3;
-    height: 42rem;
     padding: 0 10%;  
     position: relative;
     box-shadow: 0 0 5px 3px lightblue;
@@ -383,9 +382,9 @@ button:hover {
 
 .contact-box {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1 / 2;
     border-radius: 10px;
-    height: 25rem;
+    /* height: 25rem; */
     padding: 1rem 10%;
     box-shadow: 0 0 2px 2px lightblue;
 }
@@ -394,13 +393,12 @@ button:hover {
 
 .map {
     grid-column: 2;
-    grid-row: 2;
-    height: 15rem;
+    grid-row: 2 / 3;
+    /* height: 15rem; */
     overflow: hidden;
     padding: 0;
     box-shadow: 0 0 2px 2px lightblue;
     border-radius: 10px;
-    margin-top: 2rem;
 }
 
 .map > iframe {
