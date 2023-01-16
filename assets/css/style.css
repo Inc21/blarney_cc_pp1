@@ -279,13 +279,11 @@ footer a {
 #contact-grid {
     margin: 1rem;
     gap: 2rem;
-    /* box-sizing: border-box; */
     grid-column: 1 / 4;
     grid-row: 3 / 5;
     display: grid;
     --num-cols: 2;
     grid-template-columns: repeat(var(--num-cols),1fr);
-    /* grid-auto-rows: 1fr 1fr; */
     grid-auto-rows: min-content;
     text-align: center;
     letter-spacing: 1px;
@@ -312,6 +310,8 @@ footer a {
     position: relative;
     box-shadow: 0 0 5px 3px lightblue;
     border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
 }
 
 input {
@@ -320,9 +320,11 @@ input {
     position: relative;
     width: 90%;
     margin: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
     box-shadow: 2px 2px #bcbcbc;
     padding: 0 0.5rem;
+    font-size: inherit;
+    letter-spacing: inherit;
   }
 
 label {
@@ -330,6 +332,10 @@ label {
     z-index: 1;
     left: 17%;
     background-color: white;
+}
+
+label > span {
+    font-size: 10px;
 }
 
 textarea {
@@ -342,7 +348,8 @@ textarea {
     line-height: 1.2rem;
     box-shadow: 2px 2px 5px 2px #bcbcbc;
     resize: none;
-    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    letter-spacing: inherit;
 }
 
 button {
@@ -384,7 +391,6 @@ button:hover {
     grid-column: 2;
     grid-row: 1 / 2;
     border-radius: 10px;
-    /* height: 25rem; */
     padding: 1rem 10%;
     box-shadow: 0 0 2px 2px lightblue;
 }
@@ -394,7 +400,6 @@ button:hover {
 .map {
     grid-column: 2;
     grid-row: 2 / 3;
-    /* height: 15rem; */
     overflow: hidden;
     padding: 0;
     box-shadow: 0 0 2px 2px lightblue;
@@ -412,8 +417,6 @@ button:hover {
 .main-container .confirmation {
     grid-column: 1 / 4;
     grid-row: 3 / 5;
-    /* grid-template-rows: 1fr 1fr;
-    min-height: 65vh; */
     padding: 10rem 0;
     text-align: center;
     letter-spacing: 2px;
@@ -434,7 +437,6 @@ button:hover {
 }
 
 .nb {
-    /* grid-column: 1 / 4; */
     text-align: center;
     font-weight: 600;
     font-size: 0.7rem;
