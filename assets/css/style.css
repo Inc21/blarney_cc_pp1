@@ -43,7 +43,7 @@ h2 {
     display: grid;
     padding: 0 1rem;
     grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: auto auto 1fr 1fr auto auto;
     background-color: white;
 }
 
@@ -277,16 +277,16 @@ footer a {
 /* Contact page */
 
 #contact-grid {
-    padding-top: 2rem;
-    margin: 0;
+    margin: 1rem 0;
     gap: 1rem;
     box-sizing: border-box;
     grid-column: 1 / 4;
     grid-row: 3 / 5;
-    --num-cols: 2;
     display: grid;
+    --num-cols: 2;
     grid-template-columns: repeat(var(--num-cols),1fr);
-    grid-auto-rows: auto;
+    /* grid-template-rows: auto; */
+    /* grid-auto-rows: auto; */
     text-align: center;
     letter-spacing: 1px;
 }
@@ -412,9 +412,13 @@ button:hover {
 
 .main-container .confirmation {
     grid-column: 1 / 4;
-    padding: 1rem;
+    grid-row: 3 / 5;
+    grid-template-rows: 1fr 1fr;
+    /* min-height: 65vh; */
+    padding: 10rem 0;
     text-align: center;
     letter-spacing: 2px;
+    align-self: center;
 }
 
 .confirmation span {
@@ -431,7 +435,7 @@ button:hover {
 }
 
 .nb {
-    grid-column: 1 / 4;
+    /* grid-column: 1 / 4; */
     text-align: center;
     font-weight: 600;
     font-size: 0.7rem;
@@ -446,6 +450,7 @@ button:hover {
     .main-container {
         --num-cols: 2;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
     }
 
     .logo-image {
@@ -533,7 +538,6 @@ button:hover {
         grid-row: 4 / 9;
         --num-cols: 1;
         gap: 2rem;
-        margin: 2rem 0 1rem 0;
     }
 
     .form {
