@@ -111,9 +111,9 @@ Contact Page
   <li><a href="https://fontawesome.com/" target="_blank">Font Awsome</a> for icon images.</li>
   <li><a href="https://imagecolorpicker.com/" target="_blank">imagecolorpicker.com</a> free online tool to pick the colors from original logo.</li>
   <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> was used to import the fonts</li>
-  <li><a href="https://fontjoy.com/" target="_blank">Font Joy</a> for font pairing.</li>
+  <li><a href="https://fontjoy.com/" target="_blank"> Font Joy</a> for font pairing.</li>
   <li><a href="https://www.grammarly.com/" target="_blank"> Grammarly</a>Grammarly was used to double check spelling mistakes.</li>
-  <li><a href="https://www.createmockup.com/" target="_blank">Createmockups.com</a> Responsive website mockup screenshot generator.</li>
+  <li><a href="https://www.createmockup.com/" target="_blank"> Createmockups.com</a> Responsive website mockup screenshot generator.</li>
 
 
 ## Features 
@@ -125,7 +125,7 @@ Contact Page
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo image, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button. 
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+<img align="left" width="" height="" src="assets\readme_images\header.png">
 
 <br clear="left"/>
 
@@ -134,7 +134,7 @@ Contact Page
   - Home page includes a photograph and about us section to allow the user to see information about the club and its history. 
   - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+<img align="left" width="" height="" src="assets\readme_images\home-page.png">
 
 <br clear="left"/>
 
@@ -143,7 +143,7 @@ Contact Page
   - The footer section is again featured on all the pages and includes links to the relevant social media sites for Blarney Cycling Club. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+<img align="left" width="" height="" src="assets\readme_images\footer.png">
 
 <br clear="left"/>
 
@@ -152,7 +152,7 @@ Contact Page
   - In the gallery section user can find more motivational images from the club activities. 
   - This section is valuable to the user as they will be able to easily identify the types of events Blarney cycling club organizes and takes part in. 
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+<img align="left" width="" height="" src="assets\readme_images\gallery-page.png">
 <br clear="left"/>
 
 - __The Contact Page__
@@ -160,7 +160,15 @@ Contact Page
   - This page will allow the user to contact the club via form. Also find the location for all organized weekly meetups.
   - This page is very valuable for the user with many points of contact can be found. 
 
-<img align="left" width="" height="" src="https://placehold.jp/500x300.png">
+<img align="left" width="" height="" src="assets\readme_images\contact-page.png">
+<br clear="left"/>
+
+- __The Confirmation Page__
+
+  - This page will confirm to the user that contact form was sent successefully.
+  - This page is very valuable for the user confirms that their action was completed as requested. 
+
+<img align="left" width="" height="" src="assets\readme_images\confirmation-page.png">
 <br clear="left"/>
 
 
@@ -173,6 +181,10 @@ Contact Page
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
+- Used Grammarly to check any spelling or typing errors.
+
+- 
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -183,9 +195,26 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). Mainly typing mistakes, elements left open or closed with double marks. All errors were immidiately fixed. 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css). All errors were immidiately fixed. 
+  <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+- Google Lighthouse. Testing was performed in private browsing mode.
+<br>
+<img align="left" width="400" height="" src="assets\readme_images\lighthouse-index.html.png">
+<img align="left" width="400" height="" src="assets\readme_images\lighthouse-gallery.html.png">
+<br clear="left"/>
+<img align="left" width="400" height="" src="assets\readme_images\lighthouse-contact.html.png">
+<img align="left" width="400" height="" src="assets\readme_images\lighthouse-confirmation.html.png">
+<br clear="left"/>
+
 
 ### Unfixed Bugs
 
