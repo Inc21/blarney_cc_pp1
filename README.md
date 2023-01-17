@@ -9,21 +9,21 @@ Link to the live website can be found [here.](https://inc21.github.io/blarney_cc
 
 
 # User Stories
-### First time guest ojectives
+### First time user ojectives
 <ul>
-  <li>As a first time guest, When I first open the page I want to be confirmed visually that I'am on the right page.</li>
-  <li>As a first time guest, I want to easily navigate my way around the site.</li>
-  <li>As a first time guest, I want to be able to see what this club is all about, learn more and send them a message.</li>
-  <li>As a first time guest, I want to inspired by the photographs on the page to get out and healthy.</li>
-  <li>As a first time guest, I want to be able to find the club location.</li>
+  <li>As a first time user, When I first open the page I want to be confirmed visually that I'am on the right page.</li>
+  <li>As a first time user, I want to easily navigate my way around the site.</li>
+  <li>As a first time user, I want to be able to see what this club is all about, learn more and send them a message.</li>
+  <li>As a first time user, I want to inspired by the photographs on the page to get out and healthy.</li>
+  <li>As a first time user, I want to be able to find the club location.</li>
 </ul>
 
-### Returning guest objectives
+### Returning user objectives
 <ul>
-  <li>As a returning guest, I would like to navigate to the right page quickly and easily.</li>
-  <li>As a returning guest, I would like to find the location for group cycle coming up.</li>
-  <li>As a returning guest, I would like to find out and maybe download information about the upcoming event.</li>
-  <li>As a returning guest, I would like to see if there is any cancellations due to weather for upcoming group cycle.</li>
+  <li>As a returning user, I would like to navigate to the right page quickly and easily.</li>
+  <li>As a returning user, I would like to find the location for group cycle coming up.</li>
+  <li>As a returning user, I would like to find out and maybe download information about the upcoming event.</li>
+  <li>As a returning user, I would like to see if there is any cancellations due to weather for upcoming group cycle.</li>
 </ul>
 
 ###  Site owner objectives
