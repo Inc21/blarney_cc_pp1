@@ -1,6 +1,6 @@
 # Blarney Cycling Club
 
-Blarney cycling club is a website for real life cycling club based in Blarney, Co. Cork. Blarney CC mainly gaters for all diferent types of road racing with main emphasis on road cycling. Club was founded in 1886 and has been quite active in the community ever since. Club organizes one sportif/charity cycle and three or more road racing events every year. This website will be very useful contact point for people not on social media, advertisment and information point for the events or new cyclists hoping to contact the club.
+Blarney cycling club is a website for real life cycling club based in Blarney, Co. Cork. Blarney CC mainly gaters for all diferent types of cycling with main emphasis on road cycling. Club was founded in 1886 and has been quite active in the community ever since. Club organizes one sportif/charity cycle and three or more road racing events every year. This website will be very useful contact point for people not on social media. Also great advertisment and information point for the events coming up or new cyclists hoping to contact the club.
 
 Link to the live website can be found [here.](https://inc21.github.io/blarney_cc_pp1/)
 
@@ -122,17 +122,19 @@ Contact Page
 
 - __Header of the page__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo image, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes link on the Logo image to home page. Header on home page, gallery and contact page are identical to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser ‘back’ button.  
+
+  <br clear="left"/>
 
 <img align="left" width="" height="" src="assets\readme_images\header.png">
 
-<br clear="left"/>
+<br clear="left"/>  
 
 - __Home page__
 
   - Home page includes a photograph and about us section to allow the user to see information about the club and its history. 
-  - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.
+  - This page is first page user sees when coming to the page with eye catching hero image to make them investigate further.  
 
 <img align="left" width="" height="" src="assets\readme_images\home-page.png">
 
@@ -141,16 +143,16 @@ Contact Page
 - __The Footer__ 
 
   - The footer section is again featured on all the pages and includes links to the relevant social media sites for Blarney Cycling Club. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-<img align="left" width="" height="" src="assets\readme_images\footer.png">
+<img align="left" width="" height="" src="assets\readme_images\footer.png">  
 
 <br clear="left"/>
 
 - __Gallery__
 
   - In the gallery section user can find more motivational images from the club activities. 
-  - This section is valuable to the user as they will be able to easily identify the types of events Blarney cycling club organizes and takes part in. 
+  - This section is valuable to the user as they will be able to easily identify the types of events Blarney cycling club organizes and takes part in.   
 
 <img align="left" width="" height="" src="assets\readme_images\gallery-page.png">
 <br clear="left"/>
@@ -175,21 +177,24 @@ Contact Page
 
 ### Features Left to Implement
 
-- Another feature idea
+- Full club history page. Club historian has been collecting old photos and articles and history page would be great way to publicize this.
+- Events page. As mentioned earlier Blarney CC is very active and running many events. This page would be very valuable place for marketing for these events and users to find more info about the event.
+- Registration page for events.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+This website was tested on as many different devices as I was able to find. Including: laptop, desktop pc, two different iPad's, three different versions of mobile phone. I Used program called [Grammarly](https://www.grammarly.com/) to check any spelling or typing errors. Clicked all the links and making sure that they are pointing to the right page and that they open in new window. Filled out the form to confirm that it is functioning as intended. Additionally conducted Google lighthose and W3C validator testing, results for them is below.
+  Also made sure that website is clear, easy to use and valuable for the user.
 
-- Used Grammarly to check any spelling or typing errors.
 
-- 
+- This website was created with few colors and no big pictures. This makes this page very easy on the eyes for the end user.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Also used Google dev tools to test responsiveness on smaller screens and with throttling on for low-end and mid-tier mobiles. Website was able to load with no considerable page loading times even on the low-end mobile.
+
+## Look and feel
+ - Look of this website is very consistant in all different browsers tested
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
