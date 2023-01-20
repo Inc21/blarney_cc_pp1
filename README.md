@@ -9,14 +9,14 @@ The link to the live website can be found [here.](https://inc21.github.io/blarne
 
 
 # User Stories
+
 ### First-time user objectives
-<ul>
-  <li>As a first-time user, When I first open the page I want to be confirmed visually that I am on the right page.</li>
-  <li>As a first-time user, I want to easily navigate my way around the site.</li>
-  <li>As a first-time user, I want to be able to see what this club is all about, learn more and send them a message.</li>
-  <li>As a first-time user, I want to be inspired by the photographs on the page to get out and healthy.</li>
-  <li>As a first-time user, I want to be able to find the club location.</li>
-</ul>
+
+- As a first-time user, When I first open the page I want to be confirmed visually that I am on the right page.
+- As a first-time user, I want to easily navigate my way around the site. 
+- As a first-time user, I want to be able to see what this club is all about, learn more and send them a message.
+- As a first-time user, I want to be inspired by the photographs on the page to get out and healthy.
+- As a first-time user, I want to be able to find the club location.
 
 ### Returning user objectives
 <ul>
@@ -40,11 +40,11 @@ The link to the live website can be found [here.](https://inc21.github.io/blarne
 For this, well-established cycling club it was important to pick colours that are consistent with their original club logos and cycling kit.<br>
 The two main colours are Tory Blue and Persian Red 
 
-<img src="assets\readme_images\color_pallette.png" alt="Color Pallette" width="500px"><br>
-<img src="assets\readme_images\tory_blue.png" alt="Tory Blue" width="250px">
-<img src="assets\readme_images\persian_red.png" alt="Persian Red" width="250px">
 
-<br clear="left"/>
+![Color Pallette](assets/readme_images/color_pallette.png)
+
+![Tory Blue](assets/readme_images/tory_blue.png)![Persian Red](assets/readme_images/persian_red.png)
+
 
 ## Font
 Used Google fonts to import the font styles and <a href="https://fontjoy.com/" target="_blank">fontjoy.com</a> for pairing the fonts.
