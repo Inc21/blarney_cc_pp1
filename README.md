@@ -178,21 +178,21 @@ Contact Page
 ### Features Left to Implement
 
 - Full club history page. The club historian has been collecting old photos and articles and the history page would be a great way to publicize this.
-- Events page. As mentioned earlier Blarney CC is very active and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
+- Events page. As mentioned earlier Blarney CC is very active club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
 - Registration page for events.
 
 ## Testing 
 
-This website was tested on as many different devices as I was able to find. Including a laptop, desktop pc, two different iPads, and three different versions of mobile phones. I Used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Clicked all the links and made sure that they are pointing to the right page and that they open in a new window. Filled out the form to confirm that it is functioning as intended. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
-  Also made sure that the website is clear, easy to use and valuable for the user.
+This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Clicked all the links on all pages and made sure that they are pointing to the right page and that they open in a new window. Filled out the form to confirm that it is functioning as intended. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
+Also made sure that the website is clear, easy to use and valuable for the user.
 
 
-- This website was created with few colors and no big pictures. This makes this page very easy on the eyes of the end user.
+- This website was created with only two main colors and with no big images. This makes page very easy on the eyes of the end user and quick to load.
 
 - Also used Google dev tools to test responsiveness on smaller screens and with throttling on for low-end and mid-tier mobiles. The website was able to load with no considerable page loading times even on low-end mobile.
 
 ## Look and feel
-  - The look of this website is very consistent in all different browsers tested
+  - The look of this website is very consistent in all different browsers tested including Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge.
 
 
 ## Interesting bug or problems.
