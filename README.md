@@ -107,7 +107,7 @@ __Contact Page__
   <li><a href="https://imagecolorpicker.com/" target="_blank">imagecolorpicker.com</a> free online tool to pick the colors from the original logo.</li>
   <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> was used to import the fonts</li>
   <li><a href="https://fontjoy.com/" target="_blank"> Font Joy</a> for font pairing.</li>
-  <li><a href="https://www.grammarly.com/" target="_blank"> Grammarly</a>Grammarly was used to double check spelling mistakes.</li>
+  <li><a href="https://www.grammarly.com/" target="_blank"> Grammarly</a> was used to double-check spelling mistakes.</li>
   <li><a href="https://www.createmockup.com/" target="_blank"> Createmockups.com</a> Responsive website mockup screenshot generator.</li>
 
 
@@ -173,7 +173,7 @@ __Contact Page__
 ### Features Left to Implement
 
 - Full club history page. The club historian has been collecting old photos and articles and the history page would be a great way to publicize this.
-- Events page. As mentioned earlier Blarney CC is very active club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
+- Events page. As mentioned earlier Blarney CC is a very active club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
 - Registration page for events.
 
 ## Testing 
@@ -182,7 +182,7 @@ This website was tested on as many different devices as I was able to find. Incl
 Also made sure that the website is clear, easy to use and valuable for the user.
 
 
-- This website was created with only two main colors and with no big images. This makes page very easy on the eyes of the end user and quick to load.
+- This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
 
 - Also used Google dev tools to test responsiveness on smaller screens and with throttling on for low-end and mid-tier mobiles. The website was able to load with no considerable page loading times even on low-end mobile.
 
@@ -192,16 +192,16 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 
 ## Interesting bug or problems.
   - An existing logo that had to be used for this website meant that the colours that I could use were very limited. This and my lack of experience in design and coding made this project an interesting problem that had to be solved.
-  - Used css grid for the layout. Trying to match different elements on the page was a big learning curve.
+  - Used css grid for the layout. Trying to match different elements' heights and widths on the page was a big learning curve.
   - Another interesting problem to solve was getting labels on the form page to render on top of input fields.
 
 
 ### Validator Testing 
 
 - HTML
-  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). Mainly typing mistakes, elements left open or closed with double marks. All errors were immediately fixed. 
+  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). Mainly typing mistakes and elements left open or closed with double marks. All errors were immediately fixed. 
 - CSS
-  - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css). All errors were immidiately fixed. 
+  - Some errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css). All errors were immediately fixed. 
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -222,7 +222,7 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 
 ## Unfixed Bugs
 
-After rigorous testing with various online tools and my limited testing with different devices and browsers, the errors returned were rectified.
+After rigorous testing with various online tools and my limited testing with different devices and browsers, all warnings and errors returned were rectified.
 
 
 ## Deployment
@@ -240,11 +240,17 @@ The live link can be found here - https://inc21.github.io/blarney_cc_pp1/
 
 # Credits 
 
+No part of any of the code used on this website was copied and pasted from anywhere. [Code Institute's](https://codeinstitute.net/ie/) 'Love Running' project and various other online tutorials were used to guide this learning process and get an idea of how to apply the concepts to this website.<br>
 
 
-In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+YouTube tutorials created by:<br>
+<a href="https://www.youtube.com/@Code_Entropy">Code Entropy</a><br>
+<a href="https://www.youtube.com/@dcode-software">dcode</a><br>
+<a href="https://www.youtube.com/@Tech2etc">Tech2 etc</a><br>
+All repositories can be found on my [GitHub Profile.](https://github.com/Inc21?tab=repositories)
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Many other websites were used for research and ideas how to fix problems including but not limited: [Google](https://www.google.ie/), [Stack Overflow](https://stackoverflow.com/), [w3shools](https://www.w3schools.com/), [Slack](https://slack.com/intl/en-ie/) and many many more.
+
 
 ## Content 
 
