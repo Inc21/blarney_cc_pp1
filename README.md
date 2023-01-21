@@ -19,81 +19,76 @@ The link to the live website can be found [here.](https://inc21.github.io/blarne
 - As a first-time user, I want to be able to find the club location.
 
 ### Returning user objectives
-<ul>
-  <li>As a returning user, I would like to navigate to the right page quickly and easily.</li>
-  <li>As a returning user, I would like to find the location for the group cycle coming up.</li>
-  <li>As a returning user, I would like to find out and maybe download information about the upcoming event.</li>
-  <li>As a returning user, I would like to see if there are any cancellations due to weather for the upcoming group cycle.</li>
-</ul>
+
+- As a returning user, I would like to navigate to the right page quickly and easily.
+- As a returning user, I would like to find the location for the group cycle coming up.
+- As a returning user, I would like to find out and maybe download information about the upcoming event.
+- As a returning user, I would like to see if there are any cancellations due to weather for the upcoming group cycle.
 
 ###  Site owner objectives
-<ul>
-  <li>As a site owner, I would like the website to provide information to an even wider range of people about the club and its activities</li>
-  <li>As a site owner, I would like to attract more people to cycling</li>
-  <li>As a site owner, I would like to provide that information in a clean and easily manageable manner.</li>
-</ul>
-
+- As a site owner, I would like the website to provide information to an even wider range of people about the club and its activities.
+- As a site owner, I would like to attract more people to cycling.
+- As a site owner, I would like to provide that information in a clean and easily manageable manner.
 
 # Design
 
 ## Colour
-For this, well-established cycling club it was important to pick colours that are consistent with their original club logos and cycling kit.<br>
+
+For this, well-established cycling club it was important to pick colours that are consistent with their original club logos and cycling kit.
 The two main colours are Tory Blue and Persian Red 
 
 
 ![Color Pallette](assets/readme_images/color_pallette.png)
 
-![Tory Blue](assets/readme_images/tory_blue.png)![Persian Red](assets/readme_images/persian_red.png)
+![Tory Blue](assets/readme_images/tory_blue.png) ![Persian Red](assets/readme_images/persian_red.png)
 
 
 ## Font
-Used Google fonts to import the font styles and <a href="https://fontjoy.com/" target="_blank">fontjoy.com</a> for pairing the fonts.
-<br>
-<img src="assets\readme_images\font_pairing.png" alt="Font pairing" width="550px">
-<br clear="left"/>
+Used Google fonts to import the font styles and  [fontjoy.com](https://fontjoy.com/) 
 
-- Russo one - regular 400 - for headings
-<br>
-<img src="assets\readme_images\russo_one_font.png" alt="Russo One" width="250px">
-<br clear="left"/>
+![Font pairing](assets/readme_images/font_pairing.png)
 
-- Montserrat - regular 400 - for other text
-<br>
-<img src="assets\readme_images\montserrat_font.png" alt="Montserrat" width="250px">
-<br clear="left"/>
+**Russo one - regular 400 - for headings and larger text.**
+
+![Russo One](assets/readme_images/russo_one_font.png)
+
+
+__Montserrat - regular 400 - for paragraphs and other text__
+
+![Montserrat](assets/readme_images/montserrat_font.png)
 
 - Fall back font in both cases is Sans-serif.
 
 
 ## Wireframe
 ### Wireframe for larger screens.
-Home Page
+
+__Home Page__
 
 
 ![Home page wireframe](/assets/readme_images/wireframe_home.png)
 
 
-Gallery Page
+__Gallery Page__
 
 
 ![Gallery page wireframe](/assets/readme_images/wireframe_gallery.png)
 
 
-Contact Page
+__Contact Page__
 
 
 ![Contact page wireframe](/assets/readme_images/wireframe_contact.png)
-
-<br>
-<br>
+<br clear="left">
 
 ### Wireframe for smaller mobile screens.
+<p >
+  <img align="left" alt="" src="assets/readme_images/wireframe_m_home.png" width="20%">
+  <img align="left" alt="" src="assets/readme_images/wireframe_m_gallery.png" width="20%">
+  <img align="left" alt="" src="assets/readme_images/wireframe_m_contact.png" width="20%">
+<br clear="left">
 
-<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_home.png">
-<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_gallery.png">
-<img align="left" width="250" height="" src="assets\readme_images\wireframe_m_contact.png">
 
-<br clear="left"/>
 
 # Tools and technologies used
 ## Languages
