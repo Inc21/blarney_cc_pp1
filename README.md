@@ -247,6 +247,7 @@ Also made sure that the website is clear, easy to use and valuable for the user.
   - An existing logo that had to be used for this website meant that the colours that I could use were very limited. This and my lack of experience in design and coding made this project an interesting problem that had to be solved.
   - Used css grid for the layout. Trying to match different elements on the page was a big learning curve.
   - Another interesting problem to solve was getting labels on the form page to render on top of input fields.
+  - Blarney Cycling Club had two twitter accounts, during final stages of testing account that was linked on this website was deleted. All pages updated with correct url.
 
 
 ## Unfixed Bugs
