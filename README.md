@@ -186,12 +186,33 @@ __Contact Page__
 This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
 Also made sure that the website is clear, easy to use and valuable for the user.
 
-
+## Link testing
 | Action | Expected Result | Actual Result |
 |---|---|---|
-| Click on website url: [https://inc21.github.io/blarney_cc_pp1/](https://inc21.github.io/blarney_cc_pp1/) | Open 'Home page' of the website | Working as expected |
+| Click on website url: [https://inc21.github.io/blarney_cc_pp1/](https://inc21.github.io/blarney_cc_pp1/) | Open 'Home Page' of the website | Working as expected |
+- ### Header and navigation bar
+| Action | Expected Result | Actual Result |
+|---|---|---|
 | Click on the logo image in header section. | Reload or move to 'Home Page' | Working as expected |
+| Click on navigation bar 'Home' button | Reload or move to 'Home Page' | Working as expected |
+|  Click on navigation bar 'Gallery' button | Load 'Gallery Page' | Working as expected |
+|  Click on navigation bar 'Contact' button | Load 'Contact Page' | Working as expected |
+- ### Footer at the bottom of the page and social media links
+| Action | Expected Result | Actual Result |
+|---|---|---|
+| Click on Facebook icon (first from left) | Open Blarney CC Facebook page in new window | Working as expected |
+| Click on Twitter icon (second from left) | Open Blarney CC twitter page in new window | Working as expected |
+| Click on Instagram icon (Third from left) | Open Blarney CC Instagram page in new window | Working as expected |
+| Click on strava icon (first from left) | Open Blarney CC Strava page in new window | Working as expected |
 
+
+## Form testing
+| Action | Expected Result | Actual Result |
+|---|---|---|
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
 
 - This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
 
