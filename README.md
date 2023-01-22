@@ -176,24 +176,26 @@ __Contact Page__
 - Events page. As mentioned earlier Blarney CC is very active club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
 - Registration page for events.
 
-## Testing 
-
-This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Clicked all the links on all pages and made sure that they are pointing to the right page and that they open in a new window. Filled out the form to confirm that it is functioning as intended. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
-Also made sure that the website is clear, easy to use and valuable for the user.
-
-
-- This website was created with only two main colors and with no big images. This makes page very easy on the eyes of the end user and quick to load.
-
-- Also used Google dev tools to test responsiveness on smaller screens and with throttling on for low-end and mid-tier mobiles. The website was able to load with no considerable page loading times even on low-end mobile.
 
 ## Look and feel
   - The look of this website is very consistent in all different browsers tested including Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge.
 
 
-## Interesting bug or problems.
-  - An existing logo that had to be used for this website meant that the colours that I could use were very limited. This and my lack of experience in design and coding made this project an interesting problem that had to be solved.
-  - Used css grid for the layout. Trying to match different elements on the page was a big learning curve.
-  - Another interesting problem to solve was getting labels on the form page to render on top of input fields.
+## Testing 
+
+This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
+Also made sure that the website is clear, easy to use and valuable for the user.
+
+
+| Action | Expected Result | Actual Result |
+|---|---|---|
+| Click on website url: [https://inc21.github.io/blarney_cc_pp1/](https://inc21.github.io/blarney_cc_pp1/) | Open 'Home page' of the website | Working as expected |
+| Click on the logo image in header section. | Reload or move to 'Home Page' | Working as expected |
+
+
+- This website was created with only two main colors and with no big images. This makes page very easy on the eyes of the end user and quick to load.
+
+- Also used Google dev tools to test responsiveness on smaller screens and with throttling on for low-end and mid-tier mobiles. The website was able to load with no considerable page loading times even on low-end mobile.
 
 
 ### Validator Testing 
@@ -220,9 +222,15 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 <br clear="left"/>
 
 
+## Interesting bug or problems.
+  - An existing logo that had to be used for this website meant that the colours that I could use were very limited. This and my lack of experience in design and coding made this project an interesting problem that had to be solved.
+  - Used css grid for the layout. Trying to match different elements on the page was a big learning curve.
+  - Another interesting problem to solve was getting labels on the form page to render on top of input fields.
+
+
 ## Unfixed Bugs
 
-After rigorous testing with various online tools and my limited testing with different devices and browsers, the errors returned were rectified.
+After rigorous testing with various online tools and my testing with different devices and browsers, the errors returned were rectified.
 
 
 ## Deployment
