@@ -54,8 +54,15 @@ img {
     border-radius: 5px;
 }
 
+header a {
+    position: relative;
+    z-index: 2;
+}
+
 #blarney-logo {
     max-height: 8rem;
+    z-index: 1;
+    position: relative;
 }
 
 .logo-image {
