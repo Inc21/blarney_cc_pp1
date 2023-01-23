@@ -197,6 +197,7 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 | Click on navigation bar 'Home' button | Reload or move to 'Home Page' | Working as expected |
 |  Click on navigation bar 'Gallery' button | Load 'Gallery Page' | Working as expected |
 |  Click on navigation bar 'Contact' button | Load 'Contact Page' | Working as expected |
+|  Click on 'contact' in 'About' section | Load 'Contact Page' | Working as expected |
 - ### Footer at the bottom of the page and social media links
 | Action | Expected Result | Actual Result |
 |---|---|---|
@@ -206,13 +207,13 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 | Click on strava icon (first from left) | Open Blarney CC Strava page in new window | Working as expected |
 
 
-## Form testing
-| Action | Expected Result | Actual Result |
-|---|---|---|
-| 1 | 2 | 3 |
-| 1 | 2 | 3 |
-| 1 | 2 | 3 |
-| 1 | 2 | 3 |
+## Form testing, contact page.
+| Action | Expected Result | Actual Result | Image |
+|---|---|---|---|
+| on 'Contact Page' press 'Submit' button without filling out the form. | Browser to display warning on the line where user input is required | Working as expected | ![](/assets/readme_images/Form_subit_blank.png) |
+| on 'Contact Page' in email input field enter some other text only and hit 'Submit' button | Browser to display warning on email input field about missing @ symbol| Working as expected | ![](/assets/readme_images/Form_subit_email.png) |
+| Form filled with marked required text. | Open 'Confirmation Page' to confirm to the user about the succsessful form submit. | Working as expected | ![](/assets/readme_images/Form_subit_full.png) ![](/assets/readme_images/success_page_load.png) |
+| on 'Confirmation Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected |  |
 
 - This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
 
