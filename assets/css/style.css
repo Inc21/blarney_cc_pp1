@@ -50,19 +50,18 @@ h2 {
 img { 
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 5px;
 }
 
 #blarney-logo {
-     max-height: 8rem;
+    max-height: 8rem;
 }
 
 .logo-image {
     grid-row: 1;
     grid-column: 1 / 3;
     justify-self: start;
-    /* align-self: end; */
 }
 
 /* navigation menu */
