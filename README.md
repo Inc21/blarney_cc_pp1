@@ -172,8 +172,8 @@ __Contact Page__
 
 ### Features Left to Implement
 
-- Full club history page. The club historian has been collecting old photos and articles and the history page would be a great way to publicize this.
-- Events page. As mentioned earlier Blarney CC is a very active club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
+- Full club history page. The club historian has been collecting old photos and articles about the club since the start and the history page would be a great way to publicize this.
+- Events page. As mentioned earlier Blarney CC is a very active cycling club and runs many events. This page would be a very valuable place for marketing these events and for users to find more info about the event.
 - Registration page for events.
 
 
@@ -183,22 +183,22 @@ __Contact Page__
 
 ## Testing 
 
-This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
+This website was tested on as many different devices as I was able to find. Including a Dell laptop and desktop pc, iPads 6th and 10th generation, and iPhone SE, iPhone 12 and iPhone 13. Also used a program called [Grammarly](https://www.grammarly.com/) to check for any spelling or typing errors. Detailed actions are listed below. Additionally conducted Google lighthouse and W3C validator testing, results for them are below.
 Also made sure that the website is clear, easy to use and valuable for the user.
 
 ## Link testing
 | Action | Expected Result | Actual Result |
 |---|---|---|
 | Click on website url: [https://inc21.github.io/blarney_cc_pp1/](https://inc21.github.io/blarney_cc_pp1/) | Open 'Home Page' of the website | Working as expected |
-- ### Header and navigation bar
+- ### Header and navigation bar.
 | Action | Expected Result | Actual Result |
 |---|---|---|
-| Click on the logo image in header section. | Reload or move to 'Home Page' | Working as expected |
+| Click on the logo image in the header section. | Reload or move to 'Home Page' | Working as expected |
 | Click on navigation bar 'Home' button | Reload or move to 'Home Page' | Working as expected |
 |  Click on navigation bar 'Gallery' button | Load 'Gallery Page' | Working as expected |
 |  Click on navigation bar 'Contact' button | Load 'Contact Page' | Working as expected |
 |  Click on 'contact' in 'About' section | Load 'Contact Page' | Working as expected |
-- ### Footer at the bottom of the page and social media links
+- ### Footer at the bottom of the page and social media links.
 | Action | Expected Result | Actual Result |
 |---|---|---|
 | Click on Facebook icon (first from left) | Open Blarney CC Facebook page in new window | Working as expected |
@@ -207,12 +207,12 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 | Click on strava icon (first from left) | Open Blarney CC Strava page in new window | Working as expected |
 
 
-## Form testing, contact page.
+- ### Form testing, contact confirmation page.
 | Action | Expected Result | Actual Result | Image |
 |---|---|---|---|
-| on 'Contact Page' press 'Submit' button without filling out the form. | Browser to display warning on the line where user input is required | Working as expected | ![](/assets/readme_images/Form_subit_blank.png) |
-| on 'Contact Page' in email input field enter some other text only and hit 'Submit' button | Browser to display warning on email input field about missing @ symbol| Working as expected | ![](/assets/readme_images/Form_subit_email.png) |
-| Form filled with marked required text. | Open 'Confirmation Page' to confirm to the user about the succsessful form submit. | Working as expected | ![](/assets/readme_images/Form_subit_full.png) ![](/assets/readme_images/success_page_load.png) |
+| on the 'Contact Page' press the 'Submit' button without filling out the form. | Browser to display a warning on the line where user input is required | Working as expected | ![](/assets/readme_images/Form_subit_blank.png) |
+| on the 'Contact Page' in the email input field enter some other text and hit the 'Submit' button | Browser to display a warning on the email input field about missing @ symbol| Working as expected | ![](/assets/readme_images/Form_subit_email.png) |
+| Form filled with the marked required text. | Open the 'Confirmation Page' to confirm with the user about the successful form submission. | Working as expected | ![](/assets/readme_images/Form_subit_full.png) ![](/assets/readme_images/success_page_load.png) |
 | on 'Confirmation Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected |  |
 
 - This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
@@ -248,19 +248,22 @@ Also made sure that the website is clear, easy to use and valuable for the user.
   - An existing logo that had to be used for this website meant that the colours that I could use were very limited. This and my lack of experience in design and coding made this project an interesting problem that had to be solved.
   - Used css grid for the layout. Trying to match different elements on the page was a big learning curve.
   - Another interesting problem to solve was getting labels on the form page to render on top of input fields.
-  - Blarney Cycling Club had two twitter accounts, during final stages of testing account that was linked on this website was deleted. All pages updated with correct url.
+  - Blarney Cycling Club had two Twitter accounts, during the final stages of testing account that was linked on this website was deleted. All pages are updated with the correct url.
+  - Another problem discovered during my local testing with different iPhones and iPads, was the logo image not resizing correctly when you turn the phone horizontally. It was like some bottom part of the image was cut off. Quite happy about the solution. Did some searching on the web for potential solutions and I could see this question asked before. I could only test this on the live site so had to do a few commits to get this right. Found no solution but it got me thinking. My solution was, the original logo was 1100x800px and only needed it to be 130px at the highest so resized the image locally and did a commit. Problem still exsisted. After looking at this with dev tools looked like the image was hidden behind a white margin. Assigned position relative and z-index to the container and the problem was solved.
 
 
 ## Unfixed Bugs
 
-After rigorous testing with various online tools and my limited testing with different devices and browsers, all warnings and errors returned were rectified.
+After rigorous testing with various online tools and my limited testing with different devices and browsers, all known warnings and errors returned were rectified.
 
 
 ## Deployment
 
+### Deploy with GitHub Pages.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - On my [GitHub](https://github.com/) landing page open blarney_cc_pp1 repository.
+ The steps to deploy are as follows: 
+  - On my [GitHub](https://github.com/Inc21) profile page, top centre of the screen click on repositories.
+  - Click on blarney_cc_pp1
   - In the blarney_cc_pp1 repository, navigate to the Settings tab.
   - Menu list on the left of the screen, navigate to the pages tab. 
   - From the GitHub pages, branch section drop-down menu, select the main Branch and hit the save button.
@@ -268,10 +271,28 @@ After rigorous testing with various online tools and my limited testing with dif
 
 The live link can be found here - https://inc21.github.io/blarney_cc_pp1/ 
 
+### Local Deployment
+The steps to deploy are as follows:
+  - On my [GitHub](https://github.com/Inc21) profile page, top centre of the screen click on repositories.
+  - Click on blarney_cc_pp1
+  - In the blarney_cc_pp1 repository, click on the 'Code' button.
+  - Menu that opens copy to clipboard: https://github.com/Inc21/blarney_cc_pp1.git
+  - on a Windows machine, open the command prompt (press windows+R to open the "Run" box. Type "cmd" on then click ok).
+  - In cmd type "git clone" and paste the link you copied earlier (ctrl+V). Example: git clone https://github.com/Inc21/blarney_cc_pp1.git
+
+
+### Fork repository
+  - To fork a repository that is not yours
+  - Click on the 'Fork' button on the top right of the screen
+  - On the 'Create a new fork' page you are given the option to rename that repository and then click on the green 'Greate fork' button at the bottom of the form.
 
 # Credits 
 
 No part of any of the code used on this website was copied and pasted from anywhere. [Code Institute's](https://codeinstitute.net/ie/) 'Love Running' project and various other online tutorials were used to guide this learning process and get an idea of how to apply the concepts to this website.<br>
+
+
+[Code Institute's](https://codeinstitute.net/ie/) - 'Love Running'. Was used quite a lot as a reference.<br>
+My mentor Dick Vlaanderen. He is a great help and every time we speak my head is bursting with new ideas on how to proceed. I'd say this man has some great stories to tell also.
 
 
 YouTube tutorials created by:<br>
@@ -280,7 +301,12 @@ YouTube tutorials created by:<br>
 <a href="https://www.youtube.com/@Tech2etc">Tech2 etc</a><br>
 All repositories can be found on my [GitHub Profile.](https://github.com/Inc21?tab=repositories)
 
-Many other websites were used for research and ideas how to fix problems including but not limited: [Google](https://www.google.ie/), [Stack Overflow](https://stackoverflow.com/), [w3shools](https://www.w3schools.com/), [Slack](https://slack.com/intl/en-ie/) and many many more.
+Many other websites were used for research and ideas how to fix problems including but not limited: <br>
+[Google](https://www.google.ie/)<br>
+[Stack Overflow](https://stackoverflow.com/)<br>
+[w3shools](https://www.w3schools.com/)<br>
+[Slack](https://slack.com/intl/en-ie/)<br>
+and many many more.<br>
 
 
 ## Content 
