@@ -168,6 +168,16 @@ __Contact Page__
 <img align="left" width="" height="" src="assets\readme_images\confirmation-page.png">
 <br clear="left"/>
 
+- __The Error 404 Page__
+
+
+    Read more [GitHub custom 404 page](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+  - This page will be displayed if any user manages to navigate to a page that does not exist.
+  - Mistakes happen, this page is very valuable for the user as it shows their error whilst still keeping them on the page with easy navigation back to the home page. 
+
+<img align="left" width="" height="" src="assets\readme_images\404_page.png">
+<br clear="left"/>
+
 
 
 ### Features Left to Implement
@@ -178,7 +188,7 @@ __Contact Page__
 
 
 ## Look and feel
-  - The look of this website is very consistent in all different browsers tested including Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge.
+  - The look of this website is very consistent in all different browsers tested including Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge. 
 
 
 ## Testing 
@@ -207,13 +217,20 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 | Click on strava icon (first from left) | Open Blarney CC Strava page in new window | Working as expected |
 
 
-- ### Form testing, contact confirmation page.
+- ### Form testing, Contact page.
 | Action | Expected Result | Actual Result | Image |
 |---|---|---|---|
 | on the 'Contact Page' press the 'Submit' button without filling out the form. | Browser to display a warning on the line where user input is required | Working as expected | ![](/assets/readme_images/Form_subit_blank.png) |
 | on the 'Contact Page' in the email input field enter some other text and hit the 'Submit' button | Browser to display a warning on the email input field about missing @ symbol| Working as expected | ![](/assets/readme_images/Form_subit_email.png) |
 | Form filled with the marked required text. | Open the 'Confirmation Page' to confirm with the user about the successful form submission. | Working as expected | ![](/assets/readme_images/Form_subit_full.png) ![](/assets/readme_images/success_page_load.png) |
+
+
+- ### Confirmation and 404-page testing.
+| Action | Expected Result | Actual Result | Image |
+|---|---|---|---|
 | on 'Confirmation Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected |  |
+| on '404 Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected | ![](/assets/readme_images/404_message.png) |
+
 
 - This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
 
@@ -301,7 +318,7 @@ YouTube tutorials created by:<br>
 <a href="https://www.youtube.com/@Tech2etc">Tech2 etc</a><br>
 All repositories can be found on my [GitHub Profile.](https://github.com/Inc21?tab=repositories)
 
-Many other websites were used for research and ideas how to fix problems including but not limited: <br>
+Many other websites were used for research and ideas on how to fix problems including but not limited: <br>
 [Google](https://www.google.ie/)<br>
 [Stack Overflow](https://stackoverflow.com/)<br>
 [w3shools](https://www.w3schools.com/)<br>
