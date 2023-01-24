@@ -228,8 +228,8 @@ Also made sure that the website is clear, easy to use and valuable for the user.
 - ### Confirmation and 404-page testing.
 | Action | Expected Result | Actual Result | Image |
 |---|---|---|---|
-| on 'Confirmation Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected |  |
-| on '404 Page' click anywhere on the big red line of text in the message 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected | ![](/assets/readme_images/404_message.png) |
+| on 'Confirmation Page' click anywhere on the big red line of text 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected |  |
+| on '404 Page' click anywhere on the big red line of text 'Click here to go back to the home page' | Site to load 'Home Page' | Working as expected | ![](/assets/readme_images/404_message.png) |
 
 
 - This website was created with only two main colors and with no big images. This makes the page very easy on the eyes of the end-user and quick to load.
